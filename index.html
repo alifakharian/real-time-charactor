@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <h1 class="tittle">Real Time Charactor Counter</h1>
+    <div class="master">
+      <div class="clock">
+        <div class="hour">
+          
+          <div class="h-js" id="hour"></div>
+          <div class="h-title">HOURS</div>
+        </div>
+        <div class="min">
+          <div class="m-js" id="min"></div>
+          <div class="m-title">MIN</div>
+        </div>
+        <div class="secend">
+          <div class="s-js" id="secend"></div>
+          <div class="s-title">SEC</div>
+        </div>
+        <div class="ampm" id="ampm"></div>
+      </div>
+      <div class="realtimecharactor"> 
+        <h2 class="charactornumbrt">
+          Charactors number : <span id="charactornumbrt"></span>
+        </h2>
+        <textarea
+          class="textarea"
+          id="textarea"
+          maxlength="150"
+          placeholder="please type here...."
+        ></textarea>
+        <div class="max-min">
+          <div class="totalcharactor">
+            Total Charactors : <span id="totalcharactor">0</span>
+          </div>
+          <div class="remaining">Remaining : <span id="remaining">150</span></div>
+        </div>
+      </div>
+      
+    </div>
+   <script src="./js/script.js"></script> 
+</body>
+</html>
